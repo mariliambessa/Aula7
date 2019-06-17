@@ -1,0 +1,38 @@
+@keyframes text-animation {
+    0%{
+        transform: rotate(0) scale(1) translateX(0) translateY(-100%) skewX(0) skewY(0);
+        transform-origin: 0;
+        opacity: 0;
+        }
+    20%{
+        transform: rotate(0) scale(1) translateX(0) translateY(-50%) skewX(0) skewY(0);
+        transform-origin: 0;
+        opacity: 0.5;
+        }
+    40%{
+        transform: rotate(0) scale(1) translateX(0) translateY(0%) skewX(0) skewY(0);
+        transform-origin: 0;
+        opacity: 1;
+        font-weight: bolder;
+        }
+    60%{
+        transform: rotate(0) scale(1) translateX(0) translateY(0%) skewX(45deg) skewY(0);
+        transform-origin: 0;
+        opacity: 1;
+        }
+    80%{
+        transform: rotate(0) scale(1) translateX(0) translateY(0%) skewX(0) skewY(0);
+        transform-origin: 0;
+        opacity: 0;
+        }
+    100%{
+        transform: rotate(0) scale(1) translateX(300px) translateY(0%) skewX(0) skewY(0);
+        transform-origin: 0;
+        opacity: 1;
+        }
+}
+
+.text {
+    background-color: pink;
+    animation: text-animation 3s infinite 0s linear;
+}
