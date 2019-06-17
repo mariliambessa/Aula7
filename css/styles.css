@@ -36,3 +36,10 @@
     background-color: pink;
     animation: text-animation 3s infinite 0s linear;
 }
+
+@media (min-width: 700px) {
+    .text {
+        background-color: green;
+        text-align: center;
+    }
+}
